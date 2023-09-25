@@ -1,0 +1,27 @@
+html,body{
+ height: 100%;
+ width: 100%;
+}
+
+input[type="text"]:hover{
+border:solid 1px #0953db2f;
+}
+input[type="text"]{
+    padding:9px;margin-right:14px;border-radius:15px;
+    border:solid 1px #081d4549;
+}
+input[type="submit"]:hover{
+    background: #081D45;
+    color: rgba(255, 252, 252, 0.774);
+    border-radius: 48px;
+    box-shadow: 2px 2px 2px 2px rgba(255, 251, 0, 0.103);
+
+}
+input[type="submit"]{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    transition: all 0.4s ease;
+    color: #ffffff;
+    cursor: pointer;
+}
